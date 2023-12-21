@@ -1,1 +1,8 @@
 rootProject.name = 'maeil-maeil'
+include 'clouds:eureka'
+findProject(':clouds:eureka')?.name = 'eureka'
+include 'services:schedule'
+findProject(':services:schedule')?.name = 'schedule'
+include 'services:schedule:schedule-core'
+findProject(':services:schedule:schedule-core')?.name = 'schedule-core'
+

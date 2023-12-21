@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6d54be-6978-490e-8873-4d6202839f78" name="변경" comment="">
-      <changelist_data name="rightpair" email="tkddn204@gmail.com" />
+    <list default="true" id="54adabb6-8b0d-439d-be35-6492dc04d751" name="maeil-maeil-3 일정 관리 API서버 core 모듈 개발" comment="maeil-maeil-3 일정 관리 API서버 core 모듈 개발">
+      <change afterPath="$PROJECT_DIR$/clouds/eureka/src/main/java/net/rightpair/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouds/eureka/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/schedule/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
+    <list id="7e6d54be-6978-490e-8873-4d6202839f78" name="변경" comment=":wrench: `applicaiton.yaml` 수정&#10;&#10;Motivation:&#10;- `.env` 설정을 포함하는 `application.yml` 파일을 추가하려 합니다.&#10;- 개발용 파일과 테스트용 파일도 추가하려 합니다.&#10;&#10;Modification:&#10;- `applicaition*.yml` 추가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,20 +25,56 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="maeil-maeil" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="maeil-maeil" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="maeil-maeil" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="maeil-maeil" type="f1a62948:ProjectNode" />
+                <item name="실행 구성" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="rightpair &lt;tkddn204@gmail.com&gt;" />
+        <option value="Class" />
       </list>
     </option>
-    <option name="PUSH_AUTO_UPDATE" value="true" />
+  </component>
+  <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/schedule/core" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -51,25 +90,85 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.maeil-maeil [build].executor": "Run",
+    "Gradle.maeil-maeil [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/schedule/api",
+    "git-widget-placeholder": "feature/schedule/core",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/fastcampus/maeil-maeil/clouds",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.100684285",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "project.scopes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\fastcampus\maeil-maeil\schedule-core\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\fastcampus\maeil-maeil" />
+      <recent name="D:\Projects\fastcampus\maeil-maeil\services\schedule" />
+      <recent name="D:\Projects\fastcampus\maeil-maeil\services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.maeil-maeil [build]">
+    <configuration name="maeil-maeil [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="maeil-maeil [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -86,29 +185,121 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.maeil-maeil [build]" />
+        <item itemvalue="Gradle.maeil-maeil [clean]" />
+        <item itemvalue="Docker.docker-compose.yml: Compose 배포" />
+        <item itemvalue="Docker.docker-compose.yml: Compose 배포" />
         <item itemvalue="Docker.docker-compose.yml: Compose 배포" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="디폴트 작업">
+    <task id="Default" summary="디폴트 작업">
+      <branch name="feature/schedule/core" repository="D:\Projects\fastcampus\maeil-maeil" original="true" />
       <changelist id="7e6d54be-6978-490e-8873-4d6202839f78" name="변경" comment="" />
       <created>1698742353998</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698742353998</updated>
+      <updated>1698840316668</updated>
       <workItem from="1698742354853" duration="2684000" />
       <workItem from="1698822243334" duration="344000" />
+      <workItem from="1698837494556" duration="11000" />
+      <workItem from="1698839529874" duration="787000" />
     </task>
-    <servers />
+    <task id="LOCAL-00001" summary=":wrench: 인텔리제이 설정파일 추가 및 수정&#10;&#10;Motivation:&#10;- 인텔리제이에서 JPA Buddy를 설치해서 설정파일이 추가됨&#10;- 그 외 워크스페이스 설정도 추가됨&#10;&#10;Modification:&#10;- 인텔리제이 설정파일 추가">
+      <option name="closed" value="true" />
+      <created>1698826358856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698826358856</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":wrench: `.gitignore` 수정&#10;&#10;Motivation:&#10;- Mysql을 추가하기 위한 설정파일을 `.env` 파일에서 가져오려고 합니다.&#10;- 개인적인 설정 내용을 `.env`파일에 넣고 사용할 예정입니다. &#10;&#10;Modification:&#10;- `.gitignore` 수정">
+      <option name="closed" value="true" />
+      <created>1698827377260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698827377260</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":wrench: `schedule-core` 폴더 추가 및 gradle 설정 수정&#10;&#10;Motivation:&#10;- 스케쥴 API 개발을 위한 베이스 코어 모듈을 추가하려 합니다.&#10;&#10;Modification:&#10;- `schedule-core` 디렉토리 추가&#10;- 모듈 생성에 따른 gradle 파일 수정">
+      <option name="closed" value="true" />
+      <created>1698827522508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698827522508</updated>
+    </task>
+    <task id="LOCAL-00004" summary=":wrench: `docker-compose.yml` 수정&#10;&#10;Motivation:&#10;- `.env` 설정에 따라 `docker-compose.yml` 데이터베이스 설정을 변경하려 합니다.&#10;&#10;Modification:&#10;- `docker-compose.yml` 수정">
+      <option name="closed" value="true" />
+      <created>1698827607266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698827607266</updated>
+    </task>
+    <task id="LOCAL-00005" summary=":wrench: `applicaiton.yaml` 수정&#10;&#10;Motivation:&#10;- `.env` 설정을 포함하는 `application.yml` 파일을 추가하려 합니다.&#10;- 개발용 파일과 테스트용 파일도 추가하려 합니다.&#10;&#10;Modification:&#10;- `applicaition*.yml` 추가">
+      <option name="closed" value="true" />
+      <created>1698827863985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698827863985</updated>
+    </task>
+    <task active="true" id="maeil-maeil-3" summary="일정 관리 API서버 core 모듈 개발">
+      <branch name="feature/schedule/core" repository="D:\Projects\fastcampus\maeil-maeil" />
+      <changelist id="54adabb6-8b0d-439d-be35-6492dc04d751" name="maeil-maeil-3 일정 관리 API서버 core 모듈 개발" comment="" />
+      <created>1698840294000</created>
+      <option name="issue" value="true" />
+      <url>https://github.com/tkddn204/maeil-maeil/issues/3</url>
+      <option name="number" value="3" />
+      <option name="presentableId" value="maeil-maeil-3" />
+      <option name="project" value="maeil-maeil" />
+      <option name="type" value="BUG" />
+      <updated>1698840316668</updated>
+      <workItem from="1698840317509" duration="1063000" />
+      <workItem from="1698926342033" duration="85000" />
+      <workItem from="1699330488736" duration="4000" />
+      <workItem from="1699437804649" duration="226000" />
+      <workItem from="1699441832968" duration="5000" />
+      <workItem from="1699578118007" duration="305000" />
+      <workItem from="1703145901135" duration="8275000" />
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <option name="createBranch" value="false" />
+    <option name="useBranch" value="true" />
+    <servers>
+      <GitHub url="https://github.com">
+        <option name="repoAuthor" value="tkddn204" />
+        <option name="repoName" value="maeil-maeil" />
+      </GitHub>
+    </servers>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value=":wrench: `.gitignore` 수정&#10;&#10;Motivation:&#10;- Mysql을 추가하기 위한 설정파일을 `.env` 파일에서 가져오려고 합니다.&#10;- 개인적인 설정 내용을 `.env`파일에 넣고 사용할 예정입니다. &#10;&#10;Modification:&#10;- `.gitignore` 수정" />
+    <MESSAGE value=":wrench: `schedule-core` 폴더 추가 및 gradle 설정 수정&#10;&#10;Motivation:&#10;- 스케쥴 API 개발을 위한 베이스 코어 모듈을 추가하려 합니다.&#10;&#10;Modification:&#10;- `schedule-core` 디렉토리 추가&#10;- 모듈 생성에 따른 gradle 파일 수정" />
+    <MESSAGE value=":wrench: `docker-compose.yml` 수정&#10;&#10;Motivation:&#10;- `.env` 설정에 따라 `docker-compose.yml` 데이터베이스 설정을 변경하려 합니다.&#10;&#10;Modification:&#10;- `docker-compose.yml` 수정" />
+    <MESSAGE value=":wrench: `applicaiton.yaml` 수정&#10;&#10;Motivation:&#10;- `.env` 설정을 포함하는 `application.yml` 파일을 추가하려 합니다.&#10;- 개발용 파일과 테스트용 파일도 추가하려 합니다.&#10;&#10;Modification:&#10;- `applicaition*.yml` 추가" />
+    <MESSAGE value="maeil-maeil-3 일정 관리 API서버 core 모듈 개발" />
+    <option name="LAST_COMMIT_MESSAGE" value="maeil-maeil-3 일정 관리 API서버 core 모듈 개발" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
