@@ -9,6 +9,7 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+    region: ap-northeast-2
   server:
     waitTimeInMsWhenSyncEmpty: 0
 management:

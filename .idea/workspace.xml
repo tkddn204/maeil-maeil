@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54adabb6-8b0d-439d-be35-6492dc04d751" name="maeil-maeil-3 일정 관리 API서버 core 모듈 개발" comment=":wrench:service-dev.yaml 추가">
-      <change beforePath="$PROJECT_DIR$/clouds/config-server/src/main/java/net/rightpair/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouds/config-server/src/main/java/net/rightpair/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/eureka.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouds/config-server/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouds/config-server/src/main/resources/server.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouds/eureka/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/clouds/eureka/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <list id="7e6d54be-6978-490e-8873-4d6202839f78" name="변경" comment="&#10;&#10;설명:&#10;-&#10;&#10;작업:&#10;-" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,42 +72,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Gradle.'maeil-maeil.clouds.config-server'에 있는 테스트.executor": "Run",
-    "Gradle.maeil-maeil [build].executor": "Run",
-    "Gradle.maeil-maeil [clean].executor": "Run",
-    "Gradle.maeil-maeil [dependencies].executor": "Run",
-    "Gradle.maeil-maeil 빌드.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ConfigServerApplication.executor": "Run",
-    "Spring Boot.EurekaApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/fastcampus/maeil-maeil",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.100684285",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.'maeil-maeil.clouds.config-server'에 있는 테스트.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.maeil-maeil [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.maeil-maeil [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.maeil-maeil [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.maeil-maeil 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/fastcampus/maeil-maeil&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.100684285&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\fastcampus\maeil-maeil" />
@@ -120,7 +124,7 @@
       <recent name="D:\Projects\fastcampus\maeil-maeil\services" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaApplication">
     <configuration name="'maeil-maeil.clouds.config-server'에 있는 테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -221,8 +225,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Gradle.'maeil-maeil.clouds.config-server'에 있는 테스트" />
         <item itemvalue="Gradle.maeil-maeil [dependencies]" />
         <item itemvalue="Gradle.maeil-maeil [clean]" />
@@ -327,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703238197744</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=":wrench:service-dev.yaml 추가">
+      <option name="closed" value="true" />
+      <created>1703238339925</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703238339925</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers>
