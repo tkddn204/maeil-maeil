@@ -9,7 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/schedule-core" />
+            <option value="$PROJECT_DIR$/clouds" />
+            <option value="$PROJECT_DIR$/clouds/config-server" />
+            <option value="$PROJECT_DIR$/clouds/eureka" />
+            <option value="$PROJECT_DIR$/services" />
+            <option value="$PROJECT_DIR$/services/schedule" />
+            <option value="$PROJECT_DIR$/services/schedule/schedule-core" />
           </set>
         </option>
       </GradleProjectSettings>

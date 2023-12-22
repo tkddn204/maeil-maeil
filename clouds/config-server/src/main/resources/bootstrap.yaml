@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: config-server
+encrypt:
+  keyStore:
+    location: classpath:/server.jks
+    password: ${CONFIG_SERVER_KEY_PASS}
+    alias: config-server-key
