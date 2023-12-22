@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54adabb6-8b0d-439d-be35-6492dc04d751" name="maeil-maeil-3 일정 관리 API서버 core 모듈 개발" comment="&#10;&#10;설명:&#10;-&#10;&#10;작업:&#10;-">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouds/config-server/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouds/config-server/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouds/config-server/src/main/java/net/rightpair/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouds/config-server/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouds/config-server/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/schedule/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/maeil-maeil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maeil-maeil.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/clouds/eureka/maeil-maeil.clouds.eureka.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/clouds/eureka/maeil-maeil.clouds.eureka.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouds/eureka/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/clouds/eureka/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/schedule/schedule-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/services/schedule/schedule-core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="54adabb6-8b0d-439d-be35-6492dc04d751" name="maeil-maeil-3 일정 관리 API서버 core 모듈 개발" comment=":wrench:service-dev.yaml 추가">
+      <change beforePath="$PROJECT_DIR$/clouds/config-server/src/main/java/net/rightpair/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouds/config-server/src/main/java/net/rightpair/ConfigServerApplication.java" afterDir="false" />
     </list>
-    <list id="7e6d54be-6978-490e-8873-4d6202839f78" name="변경" comment=":wrench: `applicaiton.yaml` 수정&#10;&#10;Motivation:&#10;- `.env` 설정을 포함하는 `application.yml` 파일을 추가하려 합니다.&#10;- 개발용 파일과 테스트용 파일도 추가하려 합니다.&#10;&#10;Modification:&#10;- `applicaition*.yml` 추가" />
+    <list id="7e6d54be-6978-490e-8873-4d6202839f78" name="변경" comment="&#10;&#10;설명:&#10;-&#10;&#10;작업:&#10;-" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,35 +33,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="maeil-maeil" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="maeil-maeil" type="f1a62948:ProjectNode" />
-                <item name="실행 구성" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="maeil-maeil" type="f1a62948:ProjectNode" />
-                <item name="clouds" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="maeil-maeil" type="f1a62948:ProjectNode" />
-                <item name="clouds" type="2d1252cf:ModuleNode" />
-                <item name="config-server" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="maeil-maeil" type="f1a62948:ProjectNode" />
-                <item name="clouds" type="2d1252cf:ModuleNode" />
-                <item name="eureka" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="maeil-maeil" type="f1a62948:ProjectNode" />
-                <item name="clouds" type="2d1252cf:ModuleNode" />
-                <item name="eureka" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -132,7 +86,7 @@
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.EurekaApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/schedule/core",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -146,7 +100,7 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.100684285",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "spring.boot.initializr",
+    "settings.editor.selected.configurable": "project.scopes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -365,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703162149880</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=":wrench:service-dev.yaml 추가">
+      <option name="closed" value="true" />
+      <created>1703238197744</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703238197744</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers>
@@ -396,7 +358,9 @@
     <MESSAGE value=":wrench: `applicaiton.yaml` 수정&#10;&#10;Motivation:&#10;- `.env` 설정을 포함하는 `application.yml` 파일을 추가하려 합니다.&#10;- 개발용 파일과 테스트용 파일도 추가하려 합니다.&#10;&#10;Modification:&#10;- `applicaition*.yml` 추가" />
     <MESSAGE value="maeil-maeil-3 일정 관리 API서버 core 모듈 개발" />
     <MESSAGE value=":heavy_plus_sign: cloud 디렉토리 추가&#10;&#10;작업:&#10;- eureka 모듈 추가&#10;- schedule 모듈 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value=":heavy_plus_sign: cloud 디렉토리 추가&#10;&#10;작업:&#10;- eureka 모듈 추가&#10;- schedule 모듈 생성" />
+    <MESSAGE value="&#10;&#10;설명:&#10;-&#10;&#10;작업:&#10;-" />
+    <MESSAGE value=":wrench:service-dev.yaml 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value=":wrench:service-dev.yaml 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
